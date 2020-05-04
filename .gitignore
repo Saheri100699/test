@@ -1,11 +1,77 @@
-# Prerequisites
-*.d
+# Prerequisites＃のVisual Studio 2015のユーザ固有のファイル
+.vs /
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+＃コンパイル済みオブジェクトファイル
+* .slo
+* .lo
+* .o
+* .obj
+
+＃プリコンパイル済みヘッダー
+* .gch
+* .pch
+
+＃コンパイルされた動的ライブラリ
+* .so
+* .dylib
+* .dll
+
+＃のFortranモジュールファイル
+* .mod
+
+＃コンパイルされた静的ライブラリ
+* .lai
+* .la
+* .a
+* .lib
+
+＃実行可能ファイル
+* .exe
+* .out
+* .app
+* .ipa
+
+＃これらのプロジェクトファイルはエンジンで生成できます
+* .xcodeproj
+* .xcworkspace
+* .sln
+* .suo
+* .opensdf
+* .sdf
+* .VC.db
+* .VC.opendb
+
+＃プリコンパイル済みアセット
+SourceArt / ** / * .png
+SourceArt / ** / * .tga
+
+＃バイナリファイル
+バイナリ / *
+プラグイン / * / バイナリ / *
+
+＃ビルド
+ビルド / *
+
+＃ホワイトリストPakBlacklist- <BuildConfiguration> .txtファイル
+！ビルド / * /
+ビルド / * / **
+！ビルド / * / PakBlacklist * .txt
+
+＃ビルドでアイコンファイルを無視しない
+！ビルド / ** / * .ico
+
+＃マップ用に構築されたデータ
+* _BuiltData.uasset
+
+＃エディターによって生成された構成ファイル
+保存済み / *
+
+＃エンジンが使用するコンパイル済みソースファイル
+中級 / *
+プラグイン / * / 中級 / *
+
+＃エディターが使用するキャッシュファイル
+DerivedDataCache / *
 
 # Precompiled Headers
 *.gch
